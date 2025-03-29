@@ -50,6 +50,10 @@ inputs:
     description: Maximum number of attempts for completing the build and release step
     required: false
     default: "1"
+  platform:
+    description: The platform to build for (mac, windows or linux)
+    required: false
+    default: false
 
   # Deprecated
   app_root:
